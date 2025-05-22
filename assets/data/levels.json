@@ -26,7 +26,7 @@
           "old",
           "doc"
         ],
-        "backgroundImage": "egypt_level2.jpg",
+        "backgroundImage": "egypt_level1.jpg",
         "difficulty": "Easy"
       },
       {
@@ -39,7 +39,7 @@
           "man",
           "men"
         ],
-        "backgroundImage": "egypt_level3.jpg",
+        "backgroundImage": "egypt_level1.jpg",
         "difficulty": "Easy"
       },
       {
@@ -52,7 +52,7 @@
           "pot",
           "top"
         ],
-        "backgroundImage": "egypt_level4.jpg",
+        "backgroundImage": "egypt_level1.jpg",
         "difficulty": "Easy"
       }
     ]
@@ -72,7 +72,7 @@
           "tea",
           "hat"
         ],
-        "backgroundImage": "italy_level1.jpg",
+        "backgroundImage": "egypt_level1.jpg",
         "difficulty": "Easy"
       },
       {
@@ -84,7 +84,7 @@
           "god",
           "log"
         ],
-        "backgroundImage": "italy_level2.jpg",
+        "backgroundImage": "egypt_level1.jpg",
         "difficulty": "Easy"
       },
       {
@@ -96,7 +96,7 @@
           "in",
           "is"
         ],
-        "backgroundImage": "italy_level3.jpg",
+        "backgroundImage": "egypt_level1.jpg",
         "difficulty": "Easy"
       },
       {
@@ -106,9 +106,9 @@
           "dust",
           "stud",
           "us",
-          "dot"
+          "dus"
         ],
-        "backgroundImage": "italy_level4.jpg",
+        "backgroundImage": "egypt_level1.jpg",
         "difficulty": "Easy"
       }
     ]
@@ -127,7 +127,7 @@
           "win",
           "we"
         ],
-        "backgroundImage": "turkey_level1.jpg",
+        "backgroundImage": "egypt_level1.jpg",
         "difficulty": "Easy"
       },
       {

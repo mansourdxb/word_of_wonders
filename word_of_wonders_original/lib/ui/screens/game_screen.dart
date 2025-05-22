@@ -14,7 +14,7 @@ import 'dart:math' as math;
 class GameScreen extends StatefulWidget {
   final Level level;
   
-  const GameScreen({Key? key, required this.level}) : super(key: key);
+  const GameScreen({super.key, required this.level});
   
   @override
   _GameScreenState createState() => _GameScreenState();
@@ -298,11 +298,11 @@ class CrosswordGrid extends StatelessWidget {
   final int gridSize;
 
   const CrosswordGrid({
-    Key? key,
+    super.key,
     required this.words,
     this.foundWords = const [],
     this.gridSize = 10,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

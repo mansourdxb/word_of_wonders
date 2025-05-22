@@ -10,7 +10,7 @@ class AppTheme {
     colorScheme: ColorScheme.light(
       primary: primaryColor,
       secondary: accentColor,
-      background: backgroundColor,
+      surface: backgroundColor,
     ),
     scaffoldBackgroundColor: backgroundColor,
     fontFamily: 'Roboto',
@@ -42,7 +42,7 @@ class AppTheme {
     colorScheme: ColorScheme.dark(
       primary: primaryColor,
       secondary: accentColor,
-      background: Color(0xFF303030),
+      surface: Color(0xFF303030),
     ),
     scaffoldBackgroundColor: Color(0xFF303030),
     fontFamily: 'Roboto',

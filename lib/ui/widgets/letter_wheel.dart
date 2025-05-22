@@ -6,7 +6,7 @@ import '../../models/game_state.dart';
 class LetterWheel extends StatelessWidget {
   final double radius;
   
-  const LetterWheel({Key? key, this.radius = 140}) : super(key: key);
+  const LetterWheel({super.key, this.radius = 140});
   
   @override
   Widget build(BuildContext context) {
@@ -68,7 +68,7 @@ class LetterWheel extends StatelessWidget {
         // Submit the word when the gesture ends
         gameState.submitWord();
       },
-      child: Container(
+      child: SizedBox(
         width: radius * 2,
         height: radius * 2,
         child: Stack(

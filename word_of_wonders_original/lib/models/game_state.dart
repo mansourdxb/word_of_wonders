@@ -22,6 +22,11 @@ class GameState with ChangeNotifier {
   // Current dragging state
   bool isDragging = false;
   
+  void shuffleLetters() {
+  availableLetters.shuffle();
+  notifyListeners();
+}
+
   GameState(this.currentLevel) {
     availableLetters = currentLevel.letters;
   }

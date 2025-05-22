@@ -4,6 +4,8 @@ import '../../services/level_service.dart';
 import 'game_screen.dart';
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -132,7 +134,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                       ),
                       // Loading circle indicator
-                      Container(
+                      SizedBox(
                         width: 30,
                         height: 30,
                         child: CircularProgressIndicator(

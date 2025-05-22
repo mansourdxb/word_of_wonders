@@ -5,6 +5,8 @@ import '../../models/level.dart';
 import 'game_screen.dart';
 
 class LevelSelectScreen extends StatefulWidget {
+  const LevelSelectScreen({super.key});
+
   @override
   _LevelSelectScreenState createState() => _LevelSelectScreenState();
 }

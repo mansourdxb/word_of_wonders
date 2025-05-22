@@ -7,11 +7,11 @@ class WordDisplay extends StatelessWidget {
   final List<Word> allWords; // Add this to know hidden word lengths
   
   const WordDisplay({
-    Key? key,
+    super.key,
     required this.foundWords,
     required this.totalWords,
     required this.allWords,
-  }) : super(key: key);
+  });
   
   @override
   Widget build(BuildContext context) {

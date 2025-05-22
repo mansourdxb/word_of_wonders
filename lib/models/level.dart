@@ -7,7 +7,7 @@ class Level {
   final String? backgroundImage;
   final int starsRequired;
   final String difficulty;
-  
+
   Level({
     required this.id,
     required this.letters,
@@ -16,20 +16,15 @@ class Level {
     this.starsRequired = 0,
     this.difficulty = 'Medium',
   });
-  
-  // Factory method to create a level from JSON
+
   factory Level.fromJson(Map<String, dynamic> json) {
-    // Handle letters format (comma-separated string or array)
     List<String> lettersList;
     if (json['letters'] is String) {
-      // Parse comma-separated string
       lettersList = (json['letters'] as String).split(',').map((e) => e.trim()).toList();
     } else {
-      // Handle array format
       lettersList = List<String>.from(json['letters']);
     }
-
-    return Level(
+    final level = Level(
       id: json['id'],
       letters: lettersList,
       words: (json['words'] as List).map((w) {
@@ -46,5 +41,7 @@ class Level {
       starsRequired: json['starsRequired'] ?? 0,
       difficulty: json['difficulty'] ?? 'Medium',
     );
+    print('Level ${level.id} - Letters: ${level.letters}, Words: ${level.words.map((w) => w.text).toList()}');
+    return level;
   }
 }
